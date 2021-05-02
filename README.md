@@ -2,6 +2,8 @@
 Tools for visualising the results of dependent peptide searches
 ## About
 Welcome to the dependent-peptides repository. Here you will find scripts and other materials relating to the research article 'Visualisation tools for dependent peptide searches to support the exploration of *in vitro* protein modifications' by Preston and co-authors. The article is freely available via the PLoS website (https://doi.org/10.1371/journal.pone.0235263).
+
+Up-to-date information relating to the article (new findings, details of issues) will be made available via the [news](NEWS.md) file. Where appropriate, material posted to the [article's comments section](https://journals.plos.org/plosone/article/comments?id=10.1371/journal.pone.0235263) will be reproduced in this file.
 ## Tools
 The scripts contained in this repository are tools for exploring the results of [MaxQuant](https://www.maxquant.org/) 'dependent peptide' searches. Each script processes a set of search results (one or more allPeptides.txt files) and generates a graphic. The scripts originally appeared alongside our article as supplementary files (S1-S5 Scripts). 
 
@@ -12,6 +14,7 @@ All scripts were written in [R for Windows](https://www.R-project.org/) and requ
 ## Getting started
 Scripts I and V are the simplest scripts, and would be good ones to start with. Both scripts require two input files: (1) a FASTA file containing a single protein sequence; and (2) an allPeptides.txt file. Scripts II-IV require additional allPeptides.txt files, which they use to perform enrichment operations.
 
-Usage notes can be found within each script's header. More detailed information can be found in our article and its supplementary files (especially file S1 Text). Updates, including issues that have come to light since publication, will be made available here soon (for now, please check the article's [comments section](https://journals.plos.org/plosone/article/comments?id=10.1371/journal.pone.0235263)). 
+Usage notes can be found within each script's header. More detailed information can be found in our article and its supplementary files (especially file S1 Text).
+* Users can check the [news](NEWS.md) file for updates regarding issues, changes and new findings. 
 
 Example data for getting started are available via PRIDE project [PXD013040](https://www.ebi.ac.uk/pride/archive/projects/PXD013040).
